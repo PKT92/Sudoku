@@ -6,3 +6,4 @@ for i in range(9):
     for j in range(9):
         test[i].append(tmp[j])
 print(*test, sep='\n')
+#does it work
