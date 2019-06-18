@@ -83,7 +83,7 @@ def checkBoard(board):
                 board[i][j] = tmpVal
     return True
 
-path = 'hard.txt'
+path = 'test.txt'
 inputFile = open(path, 'r')
 sudoku = [[] for i in range(9)]
 empties = LinkedList()
